@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="main_container">
+        <div class="notch">
+            <img src="./Assets/lens.png" alt="lens image">
+        </div>
+        <div class="out">
+            <h3 id="result">0</h3>
+        </div>
+        <div class="calc">
+            <div class="layer layer-1">
+                <button value="AC">AC</button>
+                <button value="+/-" >+/-</button>
+                <button value="%">%</button>
+                <button class="action" value="/" id="div">/</button>
+
+            </div>
+            <div class="layer layer-2">
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button class="action" value="x" id="mul">X</button>
+            </div>
+
+            <div class="layer layer-3">
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button class="action" value="-" id="diff">-</button>
+            </div>
+
+            <div class="layer layer-4">
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button class="action" value="+" id="add">+</button>
+            </div>
+
+            <div class="layer layer-5">
+                <button value="0">0</button>
+                <button value=".">.</button>
+                <button class="action" value="=" id="equ">=</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
